@@ -37,6 +37,7 @@ const api = {
       origin_station_code: 20,
       station_path: [20, 39, 40, 42, 54, 63, 72, 88, 98],
       destination_station_code: 98,
+      distance: 0,
       date: "1st Feb 2022 14:20",
       map_url: "url",
       state: "Maharashtra",
@@ -47,6 +48,7 @@ const api = {
       origin_station_code: 13,
       station_path: [13, 25, 41, 48, 59, 64, 75, 81, 91],
       destination_station_code: 91,
+      distance: 1,
       date: "4th Feb 2022 12:45",
       map_url: "url",
       state: "Maharashtra",
@@ -57,6 +59,7 @@ const api = {
       origin_station_code: 23,
       station_path: [23, 42, 45, 48, 56, 60, 77, 81, 93],
       destination_station_code: 93,
+      distance: 2,
       date: "13th Feb 2022 9:30",
       map_url: "url",
       state: "Maharashtra",
@@ -69,6 +72,7 @@ const api = {
       origin_station_code: 23,
       station_path: [23, 42, 45, 48, 56, 60, 77, 81, 93],
       destination_station_code: 93,
+      distance: 0,
       date: "25th Feb 2022 10:30",
       map_url: "url",
       state: "Maharashtra",
@@ -79,6 +83,7 @@ const api = {
       origin_station_code: 20,
       station_path: [20, 39, 40, 42, 54, 63, 72, 88, 98],
       destination_station_code: 98,
+      distance: 1,
       date: "30th Feb 2022 16:33",
       map_url: "url",
       state: "Maharashtra",
@@ -89,6 +94,7 @@ const api = {
       origin_station_code: 13,
       station_path: [13, 25, 41, 48, 59, 64, 75, 81, 91],
       destination_station_code: 91,
+      distance: 2,
       date: "3rd March 2022 12:30",
       map_url: "url",
       state: "Maharashtra",
@@ -96,13 +102,13 @@ const api = {
     },
   ],
 
-  user:  {
+  user: {
     id: 1,
     station_code: 40,
     name: "Dhruv Singh",
     img: "/img/Rectangle.png",
     profile_key: "",
- }
+  },
 };
 
 export default api;
