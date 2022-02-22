@@ -35,7 +35,7 @@ function Card({ nearestRide, prevRide, upComingRide }) {
           <span>
             Date : {nearestRide?.date || prevRide?.date || upComingRide?.date}
           </span>
-          <span>Distance : {nearestRide?.distance}</span>
+          <span>Distance : {nearestRide?.distance || prevRide?.distance || upComingRide?.distance}</span>
         </div>
 
         <div className={styles.place}>
