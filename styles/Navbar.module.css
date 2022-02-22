@@ -39,3 +39,9 @@
     padding-right: 15px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .logo h2 {
+    font-size: 24px;
+  }
+}
